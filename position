@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: grey;
+            margin-left: 100px;
+        }
+        .main {
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            margin: 20px;
+            position: relative;
+        }
+        .child1 {
+            width: 50px;
+            height: 70px;
+            background-color: red;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+            z-index: 1;
+        }
+        .child2 {
+            width: 70px;
+            height: 50px;
+            background-color: rgb(72, 255, 0);
+            position: relative;
+            left: 10px;
+            top: 20px;
+        }
+        .main2 {
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            margin: 20px;
+        }
+        .b1 {
+            width: 50px;
+            height: 70px;
+            background-color: red;
+            position: relative;
+            top: 60px;
+            left: 10px;
+        }
+        .b2 {
+            width: 70px;
+            height: 50px;
+            background-color: rgb(72, 255, 0);
+            position: absolute;
+            left: 10px;
+            z-index: 2;
+            
+        }
+        .fixed {
+            width: 200px;
+            height: 200px;
+            background-color: rgba(247, 210, 0, 0.568);
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            height: 100%;
+            
+        }
+        .sticky {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin-left: 300px;
+            position: sticky;
+            top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>HELLO</h3>
+    <p>Learning postion in CSS</p>
+    <div class="main">
+        <div class="child1">box1</div>
+        <div class="child2">box2</div>
+    </div>
+    <div class="main2">
+        <div class="b1">box1</div>
+        <div class="b2">box2</div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Aut ut ipsum nulla tenetur dignissimos odit blanditiis illum quas culpa ex,
+          obcaecati est error reprehenderit? <br><br><br><br>
+        Dignissimos nostrum voluptatum ea dolores voluptate.
+    Lorem, ipsum dolor sit <div class="sticky"></div> amet consectetur adipisicing elit.
+     Asperiores iure dolore delectus optio beatae sed qui recusandae,
+      facilis earum repudiandae tempor <br><br><br><br>
+    a sunt omnis a eaque debitis maiores aliquam officiis laboriosam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+ Quidem error, soluta, <br><br><br><br> ipsam omnis officia eos at nihil corrupti
+  aspernatur sit repudiandae ducimus illo dolorum et, <br>
+quo quod culpa perspiciatis natus.
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br><br><br><br>
+         Aut ut ipsum nulla tenetur dignissimos odit blanditiis illum quas culpa ex,
+          obcaecati est error reprehenderit?  <br><br><br><br>
+        Dignissimos nostrum voluptatum ea dolores voluptate.
+        <div class="fixed"></div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+     Asperiores iure dolore delectus optio beatae sed qui recusandae,
+      facilis earum repudiandae tempor
+    a sunt omnis a eaque debitis maiores aliquam officiis laboriosam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+ Quidem error, soluta, ipsam omnis officia eos at nihil corrupti
+  aspernatur sit repudiandae ducimus illo dolorum et, 
+quo quod culpa perspiciatis natus.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Aut ut ipsum nulla tenetur dignissimos odit blanditiis illum quas culpa ex,
+ obcaecati est error reprehenderit? 
+Dignissimos nostrum voluptatum ea dolores voluptate.
+Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+Asperiores iure dolore delectus optio beatae sed qui recusandae,
+facilis earum repudiandae tempor
+a sunt omnis a eaque debitis maiores aliquam officiis laboriosam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+Quidem error, soluta, ipsam omnis officia eos at nihil corrupti
+aspernatur sit repudiandae ducimus illo dolorum et, 
+quo quod culpa perspiciatis natus.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Aut ut ipsum nulla tenetur dignissimos odit blanditiis illum quas culpa ex,
+ obcaecati est error reprehenderit? 
+Dignissimos nostrum voluptatum ea dolores voluptate.
+Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+Asperiores iure dolore delectus optio beatae sed qui recusandae,
+facilis earum repudiandae tempor
+a sunt omnis a eaque debitis maiores aliquam officiis laboriosam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+Quidem error, soluta, ipsam omnis officia eos at nihil corrupti
+aspernatur sit repudiandae ducimus illo dolorum et, 
+quo quod culpa perspiciatis natus.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Aut ut ipsum nulla tenetur dignissimos odit blanditiis illum quas culpa ex,
+ obcaecati est error reprehenderit? 
+Dignissimos nostrum voluptatum ea dolores voluptate.
+Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+Asperiores iure dolore delectus optio beatae sed qui recusandae,
+facilis earum repudiandae tempor
+a sunt omnis a eaque debitis maiores aliquam officiis laboriosam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+Quidem error, soluta, ipsam omnis officia eos at nihil corrupti
+aspernatur sit repudiandae ducimus illo dolorum et, 
+quo quod culpa perspiciatis natus.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Aut ut ipsum nulla tenetur dignissimos odit blanditiis illum quas culpa ex,
+ obcaecati est error reprehenderit? 
+Dignissimos nostrum voluptatum ea dolores voluptate.
+Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+Asperiores iure dolore delectus optio beatae sed qui recusandae,
+facilis earum repudiandae tempor
+a sunt omnis a eaque debitis maiores aliquam officiis laboriosam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+Quidem error, soluta, ipsam omnis officia eos at nihil corrupti
+aspernatur sit repudiandae ducimus illo dolorum et, 
+quo quod culpa perspiciatis natus.</p>
+</body>
+</html>

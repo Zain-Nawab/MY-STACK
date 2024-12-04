@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: white;
+        }
+        .main {
+            width: 1000px;
+            display: flex;
+            margin: 10px;
+            border: 1px solid red;
+            padding: 10px;
+            position: relative;
+        }
+        .d1 {
+            width: 200px;
+           
+        }
+        .img1 {
+            width: 100%;
+        }
+        h6 {
+            color: rgb(189, 56, 7);
+        }
+        .para1 {
+            background-color: white;
+            width: 50px;
+            text-align: center;
+            position: absolute;
+            top: 30px;
+            
+        }
+        .heart {
+            width: 20px;
+            background-color: white;
+            height: 20px;
+            position: absolute;
+            top: 30px;
+            left: 180px;
+        }
+        .arrow {
+            width: 20px;
+            background-color: white;
+            height: 20px;
+            position: absolute;
+            top: 60px;
+            left: 180px;
+        }
+        .search {
+            width: 20px;
+            background-color: white;
+            height: 20px;
+            position: absolute;
+            top: 90px;
+            left: 180px;
+        }
+        .d2 {
+            width: 200px;
+            margin-left: 10px;
+        }
+        .img2 {
+            width: 70%;
+        }
+        .d3 {
+            width: 200px;
+        }
+        .para2 {
+            
+            background-color: black;
+            width: 50px;
+            text-align: center;
+            position: absolute;
+            top: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">
+            <img class="img1" src="shoes1.jpg" alt="">
+            <h6>+ Add To Cart</h6>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <h4>$56.65</h4>
+            <p class="para1">NEW</p>
+            <i class="ri-heart-3-line heart"></i>
+            <i class="ri-arrow-left-right-fill arrow"></i>
+            <i class="ri-search-line search"></i>
+        </div>
+        <div class="d2">
+            <img class="img2" src="shirt1.jpg" alt="">
+            <h5>Black Shirt</h5>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <h4>$56.65</h4>
+        </div>
+        <div class="d3">
+            <img class="img1" src="shoes1.jpg" alt="">
+            <h5>+ Add To Cart</h5>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <h4>$56.65</h4>
+            <p class="para2">SALE</p>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Menu Style Start-->
+
+    <div class="container">
+        <nav>
+            <div class="web-name">
+                Edgecut
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li>
+                        <a class="link-head" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="link-head" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="link-head" href="#">Furnitures</a>
+                    </li>
+                    <li>
+                        <a class="link-head" href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="link-head" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="meu-login">
+                <a href="#">Login</a>
+                <i class="ri-user-fill"></i>
+                <i class="ri-search-line"></i>
+            </div>
+        </nav>
+    </div>
+    <!-- Menu Style End-->
+
+    <!--hero Section Start-->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-parent">
+                <div class="hero-left">
+                    <h1>For All Your
+                        <br>Furniture Needs</h1>
+                        <p class="para-head">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Minus quidem maiores perspiciatis, illo maxime <br> voluptatem a itaque suscipit.</p>
+                        <div>
+                            <a class="btn btn-orange" href="#">Contact Us</a>
+                            <a class="btn" href="#">About Us</a>
+                        </div>
+                </div>
+                <div class="hero-right">
+                    <img class="logo-img" src="./images/slider-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--hero Section End-->
+
+     <!--Furniture Section Start-->
+
+     <section class="furnitures">
+        <div class="container">
+            <h2 class="section-head">Our Furniture</h2>
+            <p>which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't an</p>
+            <div class="card-parent">
+                <div class="card-info">
+                    <img class="card-img" src="./images/f1.png" alt="">
+                    <h5 class="item-name">brown Chair Design</h5>
+                    <div class="product-price">
+                        <p>$100</p>
+                        <a class="link-buy" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <img class="card-img" src="./images/f2.png" alt="">
+                    <h5 class="item-name">brown Chair Design</h5>
+                    <div class="product-price">
+                        <p>$100</p>
+                        <a class="link-buy" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <img class="card-img" src="./images/f3.png" alt="">
+                    <h5 class="item-name">brown Chair Design</h5>
+                    <div class="product-price">
+                        <p>$100</p>
+                        <a class="link-buy" href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-parent">
+                <div class="card-info">
+                    <img class="card-img" src="./images/f4.png" alt="">
+                    <h5 class="item-name">brown Chair Design</h5>
+                    <div class="product-price">
+                        <p>$100</p>
+                        <a class="link-buy" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <img class="card-img" src="./images/f5.png" alt="">
+                    <h5 class="item-name">brown Chair Design</h5>
+                    <div class="product-price">
+                        <p>$100</p>
+                        <a class="link-buy" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <img class="card-img" src="./images/f6.png" alt="">
+                    <h5 class="item-name">brown Chair Design</h5>
+                    <div class="product-price">
+                        <p>$100</p>
+                        <a class="link-buy" href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!--Furniture Section End-->
+
+    <!-- Start-->
+    <!-- End-->
+</body>
+</html>

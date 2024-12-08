@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #272727;
+    display: inline-block
+}
+
+.link-head {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+/*Menu style start */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+nav {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.web-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #272727;
+    text-transform: uppercase;
+}
+
+#hero {
+    background-color: rgba(243, 243, 243, 0.687);
+}
+.hero-parent{
+    display: flex;
+    padding: 150px 0;
+}
+
+.btn {
+    border: 1px solid #6bb7be;
+    background-color: #6bb7be;
+    padding: 10px 40px;
+    color: white;
+    text-align: center;
+}
+
+.btn-orange {
+    background-color: #f89646;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #6bb7be;
+    transition: all 0.5s ease;
+}
+.btn-orange:hover {
+    background-color: transparent;
+    color: #f89646;
+    transition: all 0.5s ease;
+}
+
+.logo-img {
+    width: 80%;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.para-head {
+    margin-bottom: 30px;
+    
+}
+/*Menu style end */
+
+
+/* Hero section Start*/
+
+.card-parent {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card-img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.section-head {
+    text-transform: uppercase;
+}
+
+.card-info {
+    background-color: rgba(243, 243, 243, 0.687);
+    padding: 20px;
+}
+
+
+.item-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-buy{
+    color: #6bb7be;
+    text-transform: uppercase;
+}
+
+/* Hero section End*/
+
+/* Start*/
+/* End*/

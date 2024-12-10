@@ -138,5 +138,19 @@ h1 {
 
 /* Hero section End*/
 
+/* Hero section End*/
+
+/* About Section Start*/
+.about-parent {
+    display: flex;
+    margin: 40px 30px;
+    padding: 20px 20px;
+}
+.about-img {
+    width: 80%;
+}
+
+/* About Section End*/
+
 /* Start*/
 /* End*/

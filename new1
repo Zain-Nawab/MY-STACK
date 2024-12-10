@@ -128,6 +128,28 @@
      </section>
     <!--Furniture Section End-->
 
+<!--About Section Start-->
+    <section id="about">
+        <div class="container">
+            <div class="about-parent">
+                <div class="about-left">
+                    <img class="about-img" src="./images/about-img.png" alt="">
+                   
+                </div>
+                <div class="about-right">
+                    <h2 class="section-head">About Us</h2>
+                        <p class="para-head">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti  dolorem eum consequuntur <br> ipsam repellat dolor soluta aliquid  laborum, eius odit consectetur  <br>vel quasi in quidem, eveniet ab est  corporis tempore.</p>
+                        <div>
+                            <a class="btn" href="#">Read More</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About section End-->
+
     <!-- Start-->
     <!-- End-->
 </body>

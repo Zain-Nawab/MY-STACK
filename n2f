@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Menu Style STart-->
+
+    <div class="container">
+        <nav>
+            <div class="menu-logo">
+                Edgecut
+            </div>
+            <div class="home-links">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Furnitures</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a href="#">Login</a>
+                <i class="ri-user-line"></i>
+                <i class="ri-search-line"></i>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Menu Style End-->
+
+    <!-- Hero Section Start-->
+    <section id="hero">
+        <div class="container">
+
+            <div class="hero-parent">
+                <div class="hero-left">
+                    <h1>For All Your
+                        <br> Furniture Needs
+                    </h1>
+                    <p class="hero-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo
+                        maxime voluptatem a itaque suscipit.</p>
+                    <a class="btn btn-orange" href="#">Contact Us</a>
+                    <a class="btn" href="#">About US</a>
+                </div>
+                <div class="hero-right">
+                    <img class="logo-img" src="./images/slider-img.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Hero Section End-->
+
+
+    <!-- Furniture Start-->
+
+    <section class="furniture">
+        <div class="container">
+            <h2 class="section-head">Our Furniture</h2>
+            <p>which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
+                be sure there isn't an</p>
+
+            <div class="furniture-parent">
+                <div class="card">
+                    <div class="card-info">
+                        <img class="img-full" src="./images/f1.png" alt="">
+                        <h4 class="card-head">brown Chair Design</h4>
+                        <div class="card-bottom">
+                            <p class="card-price">$ 100.00</p>
+                            <a class="link-buy" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-info">
+                        <img class="img-full" src="./images/f2.png" alt="">
+                        <h4 class="card-head">Double Bed Design</h4>
+                        <div class="card-bottom">
+                            <p class="card-price">$ 200.00</p>
+                            <a class="link-buy" href="#">Buy Now</a>
+                        </div>  
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <img class="img-full" src="./images/f3.png" alt="">
+                        <h4 class="card-head">House Chair Design</h4>
+                        <div class="card-bottom">
+                            <p class="card-price">$ 200.00</p>
+                            <a class="link-buy" href="#">Buy Now</a>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="furniture-parent">
+                <div class="card">
+                    <div class="card-info">
+                        <img class="img-full img-height" src="./images/f4.png" alt="">
+                        <h4 class="card-head">brown Chair Design</h4>
+                        <div class="card-bottom">
+                            <p class="card-price">$ 100.00</p>
+                            <a class="link-buy" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-info">
+                        <img class="img-full" src="./images/f5.png" alt="">
+                        <h4 class="card-head">brown Chair Design</h4>
+                        <div class="card-bottom">
+                            <p class="card-price">$ 100.00</p>
+                            <a class="link-buy" href="#">Buy Now</a>
+                        </div>  
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <img class="img-full" src="./images/f6.png" alt="">
+                        <h4 class="card-head">brown Chair Design</h4>
+                        <div class="card-bottom">
+                            <p class="card-price">$ 100.00</p>
+                            <a class="link-buy" href="#">Buy Now</a>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Furniture End-->
+
+
+    <!--About Start-->
+
+    <section id="about">
+        <div class="container">
+
+            <div class="hero-parent">
+                <div class="hero-left">
+
+                    <img class="logo-img about-img" src="./images/slider-img.png" alt="">
+                    
+                </div>
+                <div class="hero-right">
+                    <h2 class="section-head">
+                        About Us</h2>
+                    <p class="hero-para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti <br> dolorem eum consequuntur ipsam repellat dolor soluta aliquid <br> laborum, eius odit consectetur vel quasi in quidem, eveniet ab est  corporis tempore.</p>
+    
+                    <a class="btn" href="#">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--About End-->
+
+
+    <!-- Latest Blog Start-->
+
+    <section id="blog">
+        <div class="container">
+            <h2 class="section-head center-head">Latest Blog</h2>
+
+            <div class="blog-parent">
+                <div class="blog">
+                    <img src="./images/b1.jpg" alt="">
+                    <div class="blog-info">
+                        <h4 class="section">Look even slightly believable. If you are</h4>
+                        <p class="hero-para">alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <a class="btn" href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog">
+                    <img src="./images/b2.jpg" alt="">
+                    <div class="blog-info">
+                        <h4 class="section">Anything embarrassing hidden in the middle</h4>
+                        <p class="hero-para">alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <a class="btn" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="./images/b3.jpg" alt="">
+                    <div class="blog-info">
+                        <h4 class="section">Molestias magni natus dolores odio commodi. Quaerat!</h4>
+                        <p class="hero-para">alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <a class="btn" href="#">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Latest Blog  End-->
+
+    
+    <!-- Testimonial Start-->
+
+    <section  class="testinomial">
+        <div class="container">
+            <h2 class="section-head center-head">Latest Blog</h2>
+
+            <div class="test-parent">
+
+                <div class="test-left">
+                    <img class="client-img" src="./images/client.jpg" alt="">
+                </div>
+                <div class="test-right">
+                    <h5>Siaalya</h5>
+                    <p>It is a long established fact that a reader will be distracted by the readable cIt is a long established fact that a reader will be distracted by the readable c</p>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Testimonial End-->
+
+    <!-- Start-->
+    <!-- End-->
+     
+</body>
+
+</html>

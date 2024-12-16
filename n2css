@@ -222,5 +222,50 @@ a {
 
 /* Testinomal  Section End*/
 
+
+
+
+/* Footer */
+
+#footer {
+    background-color: #272727;
+}
+
+.sign-head {
+    color: white;
+}
+
+.sign-email {
+    padding: 8px 8px;
+    margin-bottom: 10px;
+}
+
+.sign-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.sign-border {
+    border: 1px solid #6bb7be;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-icon-color {
+    color: #6bb7be;
+}
+
+.sign-icon-color:hover {
+    background-color: transparent;
+    color: #f89646;
+    transition: all 0.5s ease;
+}
+
+/* Footer */
+
+
+
 /* Section Start*/
 /* Section End*/

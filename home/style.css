@@ -1,0 +1,239 @@
+
+
+.btn-home {
+    color: #ffbe33;
+    
+}
+
+.btn-home:hover {
+    color: #ffbe33;
+}
+
+body {
+    
+}
+
+.menu-bar {
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-menu {
+    gap: 25px;
+}
+
+.home-about {
+    margin-left: 160px;
+}
+
+.oder-home {
+    gap: 10px;
+    align-items: center;
+    margin-left: 240px;
+}
+
+.order-btn {
+   background-color: #ffbe33;
+   padding: 5px 50px;
+   border-radius: 50px;   
+}
+
+.fast-food-home {
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    width: 400px;
+}
+.home-offer {
+    background-color: #222831;
+    
+}
+.card-gap {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.offer-box {
+    gap: 20px;
+}
+
+
+.img-circle {
+    width: 50%;
+}
+
+.offer-img {
+    width: 50%;
+    position: relative;
+}
+
+.img-circle {
+    border: 5px solid #ffbe33;
+    border-radius: 100%;
+}
+
+
+
+.offer-parent {
+    background-color: #222831;
+    width: 45%; 
+    border-radius: 5px;
+}
+
+.offer-info {
+    position: absolute;
+    left: 240px;
+
+}
+
+.offer-info2 {
+    position: absolute;
+    right: 360px;
+}
+
+.menu-list {
+    gap: 20px;
+}
+
+.menu-btn-all {
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-f3 {
+    width: 48%;
+}
+
+.food-info {
+    background-color: #222831;
+    border-radius: 10px;
+}
+
+.food-head, .food-para {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    height: 215px;
+    background-color: #f1f2f3;
+}
+
+
+.card-circle {
+    width: 35px;
+    height: 35px;
+    background-color: #ffbe33;
+    border-radius: 100%;
+}
+
+.cart-circle-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+
+.food-imges {
+   
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.circle-card {
+    border: 1px solid #ffbe33;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ffbe33;
+}
+
+.visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-visit {
+    margin-top: 20px;
+    background-color: #ffbe33;
+    padding: 7px 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.about {
+    background-color: #222831;
+}
+
+
+.about .row {
+    align-items: center;
+}
+
+.client-info {
+    background-color: #222831;
+    border-radius: 5px;
+}
+
+.img-client {
+    width: 35%;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #ffbe33;
+}
+
+.footer {
+    background-color: #222831;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contact-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-icon  {
+    color: white;
+    font-size: 25px;
+}
+
+.foot-icon:hover {
+    transition: all 0.5s ease;
+    color: #ffbe33;
+}
+
+.foot-rights {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,102 @@
+.home-links:hover {
+    transition: all 0.4s ease;
+    color: rgb(2 189 213);
+}
+
+.hero-top {
+    background: url(../images/slider.jpg) no-repeat 50%;
+    background-size: cover;
+    background-attachment: fixed;    
+    position: relative;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.top-nave {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.home-para {
+    padding: 25px 255px;
+}
+
+.font-color{
+    color: #02bdd5;
+}
+
+.btn-work a {
+    border: 1px solid #414141;
+    padding: 10px 20px;
+    background-color: #414141;
+    color: #fff;
+}
+
+.about-para {
+    color: #727272;
+}
+
+.work-para {
+    padding: 20px 240px;
+}
+
+.work-head {
+    color: #02bdd5;
+}
+
+.work-btn {
+    color: #02bdd5;
+}
+
+.work-btn:hover {
+    color: #337ab7;
+    transition: all 0.4s ease;
+    color: #337ab7;
+}
+
+.icons {
+    text-align: center;
+}
+
+
+.offer-box {
+    gap: 20px;
+    display: flex;
+}
+
+.offer-head {
+    font-size:20px;
+    color: #414141;
+}
+
+.offer-left {
+    font-size: 50px;
+    background-color: #02bdd5;
+    height: 100px;
+    width: 170px;
+    color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-think {
+    background-color: #02bdd5;
+}
+
+.btn-contact {
+    border: 1px solid white;
+    background-color: white;
+    color: #02bdd5;
+    padding: 15px 30px;
+}
+
+.para-copy {
+    font-size: smaller;
+}
+
+.theme-btn {
+    color: #02bdd5;
+    
+}

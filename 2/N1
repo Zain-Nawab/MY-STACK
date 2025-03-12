@@ -1,0 +1,38 @@
+<?php 
+
+$name = $_POST['name'];
+$price = $_POST['price'];
+$discount_price = $_POST['discount_price'];
+$ram = $_POST['ram'];
+$storage = $_POST['storage'];
+$screen_size = $_POST['screen_size'];
+$brand = $_POST['brand'];
+$model = $_POST['model'];
+
+$img_name = $_FILES['name'];
+$img_type = $_FILES['type'];
+
+echo "<pre>";
+print_r($_FILES);
+echo "</pre>";
+
+
+// connection database
+$host  = 'localhost';
+$user  = "root";
+$pwd   = "";
+$db    = "mobile_inventory";
+
+$conn = mysqli_connect($host, $user, $pwd, $db);
+
+if(!$conn) {
+    die("Database not connected");
+} 
+
+
+// query
+
+$q = "INSERT INTO mobile_inventory (`name`, `price`, ``, ``, ``, ``, ``, ``, ``,)"
+
+
+?>

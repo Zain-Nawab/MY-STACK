@@ -45,3 +45,29 @@ class ReviewController extends Controller
     public function store(Request $request) { /* Add review */ }
 }
 
+// admins
+
+class RoomController extends Controller
+{
+    public function index() { /* List all rooms */ }
+    public function create() { /* Form to add room */ }
+    public function store(Request $request) { /* Save room */ }
+    public function edit($id) { /* Edit room form */ }
+    public function update(Request $request, $id) { /* Update room */ }
+    public function destroy($id) { /* Delete room */ }
+}
+
+
+class BookingController extends Controller
+{
+    public function index() { /* List all bookings */ }
+    public function updateStatus(Request $request, $id) { /* Confirm or cancel */ }
+}
+
+class UserController extends Controller
+{
+    public function index() { /* List all users */ }
+    public function destroy($id) { /* Delete user */ }
+}
+
+
